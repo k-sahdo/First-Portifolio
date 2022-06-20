@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+/* --- GENERAL --- */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    /* width: 200%; */
+    /* border: 1px solid green; */
+}
+section{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    transition: 0.3s;
+}
+.page{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    position: relative;
+}
+/* .page{
+    width: 100%;
+    padding-bottom: 100px;
+    margin: 0px;
+    padding: 0px;
+    margin: auto;
+    /* position: relative; */
+    /* position: relative; */
+    /* border: 1px solid red; */
+    /* box-sizing: border-box;
+    overflow: hidden;
+} */ 
+
+/* --------------- HEADER --------------- */
+header{
+    overflow: hidden;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    margin: auto;
+    text-align: center;
+    /* border: 1px solid red; */
+    padding: 10px;
+    background-color: black;
+    width: 100%;
+}
+
+/* ---------------- FRONT --------------- */
+.front{
+    background-image: url(../content/background/background01.jpg);
+    background-size: cover;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 20px;
+    /* border: 1px solid blue; */
+    overflow: hidden;
+    /* height: 500px; */
+    background-attachment: fixed;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    /* display: flex; */
+}
+.text1{
+    max-width: 400px;
+    /* border: 1px solid blue; */
+    padding: 20px;
+    margin: 100px;
+    background-color: rgba(255,255,255,0.8);
+    /* background-color: rgba(0,0,0,0.5); */
+    /* color: white; */
+    color: black;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+h2{
+    font-size: 50px;
+}
+
+.mtext1{
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    /* border: 1px solid green; */
+    font-size: 25px;
+}
+.more{
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    /* background-color: white; */
+    /* color: black; */
+}
+.more:hover{
+    /* background-color: aliceblue; */
+    color: black;
+    border: 1px solid black;
+    /* background-color: rgba(0,0,0,0.3); */
+    /* color: white; */
+    background-color: darkred;
+}
+
+
+
+/* ---------- MENU -------- */
+
+.menu{
+    /* border: 1px solid red; */
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+    margin: auto;
+    padding: 0px;
+}
+.list{
+    /* border: 1px solid green; */
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+    top: 0px;
+}
+    
+
+.ll{
+    /* margin: 0px; */
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 19%;
+    list-style: none;
+    font-size: 30px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.ll:hover{
+    transition: 0.8s;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 40px;
+}
+
+
+/* --------------- SERVICES ----------- */
+
+#services{
+    /* border: 1px solid red; */
+    background-image: url(../content/background/background06.jpg);
+    background-size: cover;
+    padding: 100px;
+    box-sizing: border-box;
+}
+.flag{
+    /* border: 1px solid red; */
+    /* background-color: rgba(255,255,255,1.0); */
+    background-color: whitesmoke;
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+    overflow:hidden ;
+    margin-bottom: 70px;
+}
+.ficon{
+    /* border: 2px solid blue; */
+    display: inline;
+    float: left;
+}
+.fimg{
+    /* border: 2px solid yellow; */
+    width: 300px;
+    margin: auto;
+    padding: 0;
+    margin-left: 50px;
+    
+}
+.ftexto{
+    /* border: 2px solid purple; */
+    width: 400px;
+    height: 100%;
+    /* height: 250px; */
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    display:inline-block;
+    /* margin: 20px; */
+    margin-left: 15%;
+    box-sizing: border-box;
+    /* overflow: visible; */
+    
+}
+.ftxt{
+    /* border: 2px solid green; */
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+.fp{
+    /* border: 1px solid red; */
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+
+/* -------------- ABOUT ------------------- */
+.abt{
+    /* border: 2px solid red; */
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 100px;
+}
+#perfil{
+    /* border: 2px solid yellow; */
+    margin-left: 10%;
+    
+}
+.xcontent{
+    display: inline-block;
+    /* border: 2px solid blue; */
+    max-width: 600px;
+    margin: auto;
+    margin-left: 5%;
+    /* padding: 20px; */
+    padding-bottom: 10px;
+}
+.xcontent h3, p{
+    margin-bottom: 20px;
+}
+.xcontent h3{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+.xcontent p{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.prjct{
+    margin-top: 50px;
+}
+#nm{
+    color: white;
+    /* border: 1px solid red; */
+}
+#nm:hover{
+    color: darkred;
+    /* border: 1px solid blue; */
+}
+
+/* ------------- CONTACT -------------- */
+
+.cbox{
+    /* background-color: black; */
+    background-color: white;
+    padding: 40px;
+}
+.dbox{
+    /* background-image: url(../content/background/background04.jpg); */
+    background-image: url(../content/background/background07.jpg);
+    background-size: cover;
+    /* box-sizing: border-box; */
+    overflow: hidden;
+    /* width: 100%; */
+    height: 400px;
+    padding: 100px;
+    margin: auto;
+    /* border: 4px solid green; */
+}
+.boxarea{
+    /* border: 2px solid red; */
+    /* background-color: rgba(255,255,255,0.9); */
+    background-color: white;
+    margin: auto;
+    width: 60%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+.boxarea h3{
+    text-align: center;
+    /* border: 2px solid yellow; */
+    padding: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+.boxarea input, select{
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px;
+    /* border: 2px solid blue; */
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+.boxarea select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    width: 85%;
+}
+input:hover{
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+select:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#send{
+    width: 100px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+#send:hover{
+    background-color: white;
+    /* background-color: rgba(0,0,0,0.8); */
+    /* background-color: darkred; */
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+
+
+/* ----------------- FOLLOW ------------- */
+
+/* ---------------- FOLLOW ME ----------- */
+.follow{
+    background-color: black;
+    /* color: white; */
+    /* border: 2px solid red; */
+    padding: 20px;
+    padding-top: 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.social{
+    /* border: 2px solid blue; */
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+    color: black;
+    margin-left: 35%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    box-sizing: border-box;
+}
+
+#flwm{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+.social ul{
+    /* border: 2px solid purple; */
+    width: 70%;
+    margin: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.fli{
+    /* border: 2px solid yellow; */
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin: 20px;
+    list-style: none;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.fli:hover{
+    border: 1px solid darkred;
+    color: darkred;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+/* --------------- MEDIA Q ------------ */
+
+/* @media (max-width: 1204px) */
+@media (max-width: 800px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    /* body{
+        width: 100%;
+    } */
+    .front{
+        width: 100%;
+        text-align: center;
+        background-position-x:50%;
+        background-position: center;
+        background-size: 150%;
+        
+    }
+    .text1{
+        width: 80%;
+        font-size: 10px;
+        overflow: hidden;
+        box-sizing: border-box;
+        /* margin: 100px; */
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-color: rgba(0,0,0,0.8);
+        color: white;
+    }
+
+    h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .more{
+        font-size: 20px;
+        background-color: aliceblue;
+        color: black;
+    }
+    .more:hover{
+        background-color: black;
+        color: aliceblue;
+    }
+   
+    /* -----------MENU---------- */
+
+    .list{
+        margin: auto;
+        padding: 0px;
+    }
+    .ll{
+        display: block;
+        text-align: center;
+        border-radius: 0px;
+        margin: 0px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-bottom: 1px solid white;
+    }
+    .ll:hover{
+        border-radius: 0px;
+    }
+
+    /* ---------- SERVICES ----------- */
+
+    #services{
+        padding: 50px;
+    }
+    .flag{
+        width: 100%;
+        padding: 10%;
+    }
+    .ficon{
+        display: block;
+        margin: auto;
+        float: none;
+    }
+    .fimg{
+        width: 100%;
+        margin: auto;
+    }
+    .ftexto{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    .ftxt{
+        font-size: 30px;
+    }
+
+    /* ------------- ABOUT --------- */
+    .abt{
+        padding: 10px;
+    }
+    #perfil{
+        display: block;
+        margin: auto;
+        margin-bottom: 50px;
+        margin-top: 100px;
+        width: 300px;
+    }
+    .xcontent{
+        margin: auto;
+    }
+
+    /* ----------- CONTACT --------- */
+    .cbox{
+        padding: 20px;
+    }
+    .dbox{
+        padding: 10px;
+    }
+    .boxarea{
+        background-color: black;
+        padding: 10px;
+        width: 90%;
+    }
+    .boxarea h3{
+        color: white;
+        font-size: 30px;
+    }
+    .boxarea input, select{
+        padding: 10px;
+        margin-top: 25px;
+        color: white;
+        background-color: rgb(28,28,28);
+    }
+    input:hover{
+        background-color: black;
+    }
+    #send{
+        font-size: 15px;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+    }
+    #send:hover{
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+    }
+
+
+
+    /* ----- FOOTER ----- */
+
+    /* --- FOLLOW ME--- */
+    .follow{
+        padding: 10px;
+    }
+    .social{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .social ul{
+        width: 60%;
+    }
+    #flwm{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+    .fli{
+        font-size: 20px;
+        padding: 0px;
+    }
+    .fim{
+        width: 30px;
+    }
+}
